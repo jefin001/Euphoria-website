@@ -69,15 +69,20 @@
     <!-- spotlight section -->
 
     <section id="spotlight">
-      <div class="background_img">
-        <img src="assets/bg-1.jpg" alt="" />
+      <div class="backimg">
+        <div class="background_img">
+          <img src="assets/bg-1.jpg" alt="background img1" />
+        </div>
+        <div class="background_img">
+          <img src="assets/bg-3.jpg" alt="background img2" />
+        </div>
       </div>
       <div class="btns">
-        <button class="slide_btn1">
-          <img src="assets/left-arrow-bold.svg" alt="" />
+        <button class="slide_btn1" onclick="scrollbtn()">
+          <img src="assets/left-arrow-bold.svg" alt="left arrow" />
         </button>
-        <button class="slide_btn2">
-          <img src="assets/right-arrow-bold.svg" alt="" />
+        <button class="slide_btn2" onclick="scrollRight()">
+          <img src="assets/right-arrow-bold.svg" alt="right arrow" />
         </button>
       </div>
       <div class="container">
@@ -94,6 +99,10 @@
             <button>Shop Now</button>
           </a>
         </div>
+      </div>
+      <div class="slide_line">
+        <div class="line1"></div>
+        <div class="line2"></div>
       </div>
     </section>
     <!-- spotlight section end  -->
@@ -144,9 +153,6 @@
             <h2>New Arrival</h2>
           </div>
           <div class="sub_container">
-            <button class="btn1">
-              <img src="assets/arrow-left.svg" alt="" />
-            </button>
             <div class="box">
               <div class="img">
                 <img src="assets/img-1.jpg" alt="" />
@@ -171,10 +177,37 @@
               </div>
               <p>Urban Shirts</p>
             </div>
-            <button>
-              <img src="assets/arrow-right.svg" alt="" />
-            </button>
+            <div class="box">
+              <div class="img">
+                <img src="assets/img-3.jpg" alt="" />
+              </div>
+              <p>Active T-Shirts</p>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="assets/img-4.jpg" alt="" />
+              </div>
+              <p>Urban Shirts</p>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="assets/img-1.jpg" alt="" />
+              </div>
+              <p>Knitted Joggers</p>
+            </div>
+            <div class="box">
+              <div class="img">
+                <img src="assets/img-2.jpg" alt="" />
+              </div>
+              <p>Active T-Shirts</p>
+            </div>
           </div>
+          <button class="btn1" onclick="slideLeft()">
+            <img src="assets/arrow-left.svg" alt="" />
+          </button>
+          <button class="btn2" onclick="slideRight()">
+            <img src="assets/arrow-right.svg" alt="" />
+          </button>
         </div>
         <div class="second_container">
           <div class="left">
@@ -414,8 +447,8 @@
               <div class="img">
                 <img src="assets/img-16.jpg" alt="" />
               </div>
-              <button>
-                <img src="assets/wishlist.svg" alt="" />
+              <button class="like">
+                <i class="fa-solid fa-heart"></i>
               </button>
               <div class="flexx">
                 <h2>Black Sweatshirt</h2>
@@ -427,8 +460,8 @@
               <div class="img">
                 <img src="assets/img-17.jpg" alt="" />
               </div>
-              <button>
-                <img src="assets/wishlist.svg" alt="" />
+              <button class="like">
+                <i class="fa-solid fa-heart"></i>
               </button>
               <div class="flexx">
                 <h2>Line Pattern Black</h2>
@@ -440,8 +473,8 @@
               <div class="img">
                 <img src="assets/img-18.jpg" alt="" />
               </div>
-              <button>
-                <img src="assets/wishlist.svg" alt="" />
+              <button class="like">
+                <i class="fa-solid fa-heart"></i>
               </button>
               <div class="flexx">
                 <h2>Black Shorts</h2>
@@ -453,8 +486,8 @@
               <div class="img">
                 <img src="assets/img-19.jpg" alt="" />
               </div>
-              <button>
-                <img src="assets/wishlist.svg" alt="" />
+              <button class="like">
+                <i class="fa-solid fa-heart"></i>
               </button>
               <div class="flexx">
                 <h2>Lavender Hoodie</h2>
@@ -466,6 +499,7 @@
         </div>
       </div>
     </section>
+   
     <!-- limelight section end -->
     <!-- feedback section -->
 
@@ -642,6 +676,6 @@
       </div>
     </footer>
 
-    <script src="euphoria.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

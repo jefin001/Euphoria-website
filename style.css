@@ -218,9 +218,17 @@ br.clear {
 #spotlight {
   position: relative;
 }
-
-#spotlight .background_img img {
+#spotlight .backimg {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+#spotlight .background_img {
   height: 100vh;
+  min-width: 100%;
+}
+#spotlight .background_img img {
+  height: 100%;
   width: 100%;
   display: block;
 }
@@ -297,6 +305,31 @@ br.clear {
   font-size: 17px;
   cursor: pointer;
 }
+
+#spotlight .slide_line {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 6%;
+  left: 48%;
+}
+#spotlight .slide_line .line1 {
+  width: 55px;
+  height: 5px;
+  background-color: #b5b5b5c0;
+  border-radius: 5px;
+}
+#spotlight .slide_line .line2 {
+  width: 55px;
+  height: 5px;
+  background-color: #b5b5b5c0;
+  border-radius: 5px;
+}
+
+#spotlight .slide_line .active {
+  background-color: #fff;
+}
+
 /* spotlight section end  */
 /* explore section  */
 
@@ -412,6 +445,8 @@ br.clear {
 
 #arrival .wrapper .container {
   margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 #arrival .wrapper .container .head_flex {
@@ -434,25 +469,17 @@ br.clear {
 
 #arrival .wrapper .container .sub_container {
   margin-top: 35px;
+  margin-left: 25px;
   display: flex;
-}
-
-#arrival .wrapper .container .sub_container .btn1 {
-  margin-right: 15px;
-}
-
-#arrival .wrapper .container .sub_container button {
-  cursor: pointer;
-}
-
-#arrival .wrapper .container .sub_container button img {
   width: 100%;
-  display: block;
+  transition: transform 1s ease;
 }
 
 #arrival .wrapper .container .sub_container .box {
-  padding: 10px;
-  margin-right: 25px;
+  min-width: 25%;
+}
+#arrival .wrapper .container .sub_container .box .img {
+  width: 80%;
 }
 
 #arrival .wrapper .container .sub_container .box .img img {
@@ -465,6 +492,30 @@ br.clear {
   font-family: "Poppins-semiBold";
   padding-left: 5px;
 }
+
+#arrival .wrapper .container .btn1 {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#arrival .wrapper .container .btn2 {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+}
+
+#arrival .wrapper .container button {
+  cursor: pointer;
+  width: 20px;
+}
+
+#arrival .wrapper .container button img {
+  width: 100%;
+  display: block;
+}
+/* arrival background section */
 
 #arrival .wrapper .second_container {
   margin-top: 65px;
@@ -742,12 +793,19 @@ br.clear {
   width: 100%;
   display: block;
 }
+#limelight .wrapper .container .flex_box .box button i {
+    color: black; 
+  }
+  
+  #limelight .wrapper .container .flex_box .box button i.active {
+    color: red;
+  }
 
 #limelight .wrapper .container .flex_box .box button {
   border: 1px solid transparent;
   border-radius: 13px;
-  padding: 5px;
-  width: 23px;
+  padding: 4px;
+  padding-bottom: 1px;
   position: absolute;
   top: 16px;
   right: 18px;
