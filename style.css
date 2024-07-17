@@ -1082,7 +1082,21 @@ br.clear {
   padding-bottom: 25px;
   padding-top: 25px;
 }
-
+#footer .wrapper .container .bottom .item {
+}
+#footer .wrapper .container .bottom .item .list_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  display: none;
+}
+#footer .wrapper .container .bottom .item .list_items a {
+  color: #fff;
+  font-family: "Poppins-light";
+  font-size: 14px;
+  padding: 8px;
+}
 #footer .wrapper .container .bottom h3 {
   color: #fff;
   font-family: "Poppins-medium";
@@ -1095,9 +1109,11 @@ br.clear {
   padding-right: 22px;
 }
 
-#footer .wrapper .container .bottom .imge img {
-  width: 100%;
-  display: block;
+.fa-solid {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  /* user-select: none; */
 }
 
 #footer .wrapper .container .copyright p {
@@ -1345,47 +1361,31 @@ br.clear {
   gap: 15px;
 }
 
-/* #cart .wrapper .container .right .center .color .clr_circle button {
+#cart .wrapper .container .right .center .color .clr_circle button {
   width: 15px;
   height: 15px;
   border-radius: 10px;
   cursor: pointer;
   outline: 2px solid transparent;
   border: 1px solid transparent;
-} */
+}
 
 #cart .wrapper .container .right .center .color .clr_circle .black {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  cursor: pointer;
   border: 1px solid #3c4242;
   background-color: #3c4242;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .yellow {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  cursor: pointer;
   border: 1px solid #edd146;
   background-color: #edd146;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .pink {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  cursor: pointer;
   background-color: #eb84b0;
   border: 1px solid #eb84b0;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .red {
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  cursor: pointer;
   border: 1px solid #9c1f35;
   background-color: #9c1f35;
 }
@@ -1480,6 +1480,7 @@ br.clear {
 
 #product {
   margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 #product .wrapper .container .head_flex {
@@ -1688,83 +1689,3 @@ br.clear {
   padding-left: 30px;
 }
 /*  product section end */
-/* similar section */
-
-#similar .wrapper .container {
-  margin-top: 60px;
-  margin-bottom: 80px;
-}
-
-#similar .wrapper .container .head_flex {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-#similar .wrapper .container .head_flex .line {
-  width: 6px;
-  height: 25px;
-  border-radius: 10px;
-  background-color: blueviolet;
-}
-
-#similar .wrapper .container .head_flex h2 {
-  font-family: "Poppins-medium";
-  font-size: 28px;
-}
-
-#similar .wrapper .container .sub_container {
-  margin-top: 25px;
-  display: flex;
-  gap: 45px;
-}
-
-#similar .wrapper .container .sub_container .box {
-  position: relative;
-}
-
-#similar .wrapper .container .sub_container .box .img img {
-  width: 100%;
-  display: block;
-}
-
-#similar .wrapper .container .sub_container .box button {
-  border: 1px solid transparent;
-  border-radius: 13px;
-  padding: 5px;
-  width: 23px;
-  position: absolute;
-  top: 16px;
-  right: 18px;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-#similar .wrapper .container .sub_container .box button img {
-  width: 100%;
-  display: block;
-}
-
-#similar .wrapper .container .sub_container .box .flexx {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-#similar .wrapper .container .sub_container .box .flexx h2 {
-  font-family: "Poppins-medium";
-  font-size: 17px;
-}
-
-#similar .wrapper .container .sub_container .box .flexx p {
-  font-family: "Poppins-medium";
-  font-size: 12px;
-}
-
-#similar .wrapper .container .sub_container .box a {
-  font-family: "Poppins-Light";
-  font-size: 13px;
-  color: grey;
-}
-/* similar section end */

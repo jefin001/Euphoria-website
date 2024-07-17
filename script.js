@@ -78,3 +78,8 @@ button.addEventListener("blur", () => {
 });
 
 // color available section ended ********************
+// footer section button toggle ************
+
+function myFunction(x) {
+  x.classList.toggle("fa-solid fa-angle-up");
+}
