@@ -53,3 +53,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// limelight like button end ******************
+// women page cart section *************
+
+document.querySelectorAll(".size_btn").forEach((button) => {
+  button.addEventListener("click", function () {
+    document
+      .querySelectorAll(".size_btn")
+      .forEach((btn) => btn.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
+//  women page cart section end ***********
+// color available section *****************
+
+const buttons = document.querySelectorAll(".clr_circle button");
+
+button.addEventListener("blur", () => {
+  buttons.forEach((button) => {
+    button.style.outline = "2px solid transparent";
+  });
+});
+
+// color available section ended ********************

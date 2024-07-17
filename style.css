@@ -794,12 +794,12 @@ br.clear {
   display: block;
 }
 #limelight .wrapper .container .flex_box .box button i {
-    color: black; 
-  }
-  
-  #limelight .wrapper .container .flex_box .box button i.active {
-    color: red;
-  }
+  color: black;
+}
+
+#limelight .wrapper .container .flex_box .box button i.active {
+  color: red;
+}
 
 #limelight .wrapper .container .flex_box .box button {
   border: 1px solid transparent;
@@ -1329,6 +1329,10 @@ br.clear {
   margin-right: 10px;
   cursor: pointer;
 }
+.size_btn.active {
+  background-color: rgba(35, 35, 35, 0.759);
+  color: white;
+}
 
 #cart .wrapper .container .right .center .color p {
   font-family: "Poppins-medium";
@@ -1341,40 +1345,53 @@ br.clear {
   gap: 15px;
 }
 
+/* #cart .wrapper .container .right .center .color .clr_circle button {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: 2px solid transparent;
+  border: 1px solid transparent;
+} */
+
 #cart .wrapper .container .right .center .color .clr_circle .black {
   width: 15px;
   height: 15px;
-  border: 1px solid #3c4242;
   border-radius: 10px;
-  background-color: #3c4242;
   cursor: pointer;
+  border: 1px solid #3c4242;
+  background-color: #3c4242;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .yellow {
   width: 15px;
   height: 15px;
-  border: 1px solid #edd146;
   border-radius: 10px;
-  background-color: #edd146;
   cursor: pointer;
+  border: 1px solid #edd146;
+  background-color: #edd146;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .pink {
   width: 15px;
   height: 15px;
-  border: 1px solid #eb84b0;
   border-radius: 10px;
-  background-color: #eb84b0;
   cursor: pointer;
+  background-color: #eb84b0;
+  border: 1px solid #eb84b0;
 }
 
 #cart .wrapper .container .right .center .color .clr_circle .red {
   width: 15px;
   height: 15px;
-  border: 1px solid #9c1f35;
   border-radius: 10px;
-  background-color: #9c1f35;
   cursor: pointer;
+  border: 1px solid #9c1f35;
+  background-color: #9c1f35;
+}
+#cart .wrapper .container .right .center .color .clr_circle button:focus,
+#cart .wrapper .container .right .center .color .clr_circle button:active {
+  outline: 2px solid #000;
 }
 
 #cart .wrapper .container .right .center .btns {
