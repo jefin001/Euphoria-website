@@ -1082,14 +1082,20 @@ br.clear {
   padding-bottom: 25px;
   padding-top: 25px;
 }
-#footer .wrapper .container .bottom .item {
-}
+
 #footer .wrapper .container .bottom .item .list_items {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 15px;
-  display: none;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out, opacity 1s ease-out;
+}
+#footer .wrapper .container .bottom .item .list_items.show {
+  max-height: 500px;
+  opacity: 1;
 }
 #footer .wrapper .container .bottom .item .list_items a {
   color: #fff;
@@ -1109,11 +1115,11 @@ br.clear {
   padding-right: 22px;
 }
 
-.fa-solid {
+#footer .wrapper .container .bottom .arrow .fa-solid {
   font-size: 25px;
   color: #fff;
   cursor: pointer;
-  /* user-select: none; */
+  user-select: none;
 }
 
 #footer .wrapper .container .copyright p {

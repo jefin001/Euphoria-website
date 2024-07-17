@@ -80,6 +80,33 @@ button.addEventListener("blur", () => {
 // color available section ended ********************
 // footer section button toggle ************
 
-function myFunction(x) {
-  x.classList.toggle("fa-solid fa-angle-up");
+function myFunction(a) {
+  if (a.classList.contains("fa-angle-down")) {
+    a.classList.remove("fa-angle-down");
+    a.classList.add("fa-angle-up");
+  } else {
+    a.classList.remove("fa-angle-up");
+    a.classList.add("fa-angle-down");
+  }
 }
+
+// footer section button toggle ended **********
+// footer list toggle *********
+
+function toggleList() {
+  var listItems = document.getElementById("listItems");
+  if (listItems.style.display === "none" || listItems.style.display === "") {
+    listItems.style.display = "flex";
+  } else {
+    listItems.style.display = "none";
+  }
+}
+
+// toggle transition
+
+function toggleList() {
+  var listItems = document.getElementById("listItems");
+  listItems.classList.toggle("show");
+}
+
+// footer toggle section end********
