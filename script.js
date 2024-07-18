@@ -110,3 +110,23 @@ function toggleList() {
 }
 
 // footer toggle section end********
+
+// popup section
+
+const toggleButton = document.getElementById("toggleButton");
+const content = document.getElementById("popcontent");
+const closeButton = document.getElementById("popclose");
+
+const iconButton = document.getElementById("popicon");
+
+toggleButton.addEventListener("click", function () {
+  content.style.display = "block";
+});
+closeButton.addEventListener("click", function () {
+  content.style.display = "none";
+});
+document.addEventListener("click", function (event) {
+  if (!content.contains(event.target) && event.target !== iconButton) {
+    content.style.display = "none";
+  }
+});

@@ -211,6 +211,71 @@ br.clear {
   padding: 5px;
   border-radius: 5px;
 }
+/* pop bar */
+#top .wrapper .navbar .dropbtn {
+  cursor: pointer;
+  display: none;
+}
+
+#top .wrapper .navbar .dropbtn i {
+  font-size: 20px;
+}
+
+/* popup section */
+.pop {
+  display: none;
+  background-color: rgb(52, 52, 52);
+  padding: 22px 19px;
+  height: fit-content;
+  width: 358px;
+  position: absolute;
+  left: 72%;
+  top: 0px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 10;
+}
+
+.pop .poptop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop .poptop .imgg {
+  width: 130px;
+  padding-left: 12px;
+}
+
+.pop .poptop .imgg img {
+  width: 100%;
+  display: block;
+}
+
+.pop .poptop #popclose .fa {
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.pop .popcenter {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop .popcenter ul li {
+  padding: 25px;
+}
+
+.pop .popcenter ul li a {
+  font-family: "Poppins-Light";
+  transition: 0.3s;
+  color: #fff;
+}
+
+.pop .popcenter ul li a:hover {
+  color: rgb(168, 227, 86);
+}
 
 /* header section completed */
 /* spotlight section */
@@ -1695,3 +1760,17 @@ br.clear {
   padding-left: 30px;
 }
 /*  product section end */
+
+/* responsive section */
+
+@media (max-width: 1280px) {
+  #top .wrapper .navbar nav ul {
+    display: none;
+  }
+  #top .wrapper .navbar .right {
+    display: none;
+  }
+  #top .wrapper .navbar .dropbtn {
+    display: block;
+  }
+}
