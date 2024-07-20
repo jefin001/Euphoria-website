@@ -16,9 +16,9 @@ const scrollRight = function () {
   document.querySelector(".line2").classList.add("active");
 };
 
-// spotlight scroll end ************
+// // spotlight scroll end ************
 
-// arrival section scroll ****************
+// // arrival section scroll ****************
 
 let currentIndex = 0;
 const itemsToShow = 4;
@@ -40,8 +40,8 @@ function slideRight() {
   }
 }
 
-// arrival section scroll end ****************
-// limelight like button ******************
+// // arrival section scroll end ****************
+// // limelight like button ******************
 
 document.addEventListener("DOMContentLoaded", function () {
   const likeButtons = document.querySelectorAll("#limelight .like");
@@ -54,8 +54,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// limelight like button end ******************
-// women page cart section *************
+// // limelight like button end ******************
+// // women page cart section *************
 
 document.querySelectorAll(".size_btn").forEach((button) => {
   button.addEventListener("click", function () {
@@ -66,19 +66,19 @@ document.querySelectorAll(".size_btn").forEach((button) => {
   });
 });
 
-//  women page cart section end ***********
-// color available section *****************
+// //  women page cart section end ***********
+// // color available section *****************
 
-const buttons = document.querySelectorAll(".clr_circle button");
+// const buttons = document.querySelectorAll(".clr_circle button");
 
-button.addEventListener("blur", () => {
-  buttons.forEach((button) => {
-    button.style.outline = "2px solid transparent";
-  });
-});
+// button.addEventListener("blur", () => {
+//   buttons.forEach((button) => {
+//     button.style.outline = "2px solid transparent";
+//   });
+// });
 
-// color available section ended ********************
-// footer section button toggle ************
+// // color available section ended ********************
+// // footer section button toggle ************
 
 function myFunction(a) {
   if (a.classList.contains("fa-angle-down")) {
@@ -90,8 +90,8 @@ function myFunction(a) {
   }
 }
 
-// footer section button toggle ended **********
-// footer list toggle *********
+// // footer section button toggle ended **********
+// // footer list toggle *********
 
 function toggleList() {
   var listItems = document.getElementById("listItems");
@@ -102,16 +102,16 @@ function toggleList() {
   }
 }
 
-// toggle transition
+// toggle transition********
 
 function toggleList() {
   var listItems = document.getElementById("listItems");
   listItems.classList.toggle("show");
 }
 
-// footer toggle section end********
+// // footer toggle section end********
 
-// popup section
+// // popup section*********
 
 const toggleButton = document.getElementById("toggleButton");
 const content = document.getElementById("popcontent");
