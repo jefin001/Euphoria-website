@@ -2511,3 +2511,255 @@ br.clear {
     gap: 5px;
   }
 }
+
+@media (max-width: 540px) {
+  .pop {
+    left: 37%;
+    width: 340px;
+  }
+  #spotlight .container .top h3 {
+    font-size: 12px;
+  }
+  #spotlight .container .top h2 {
+    font-size: 25px;
+  }
+  #spotlight .container .bottom h3 {
+    font-size: 12px;
+  }
+  #spotlight .container .bottom a {
+    padding: 3px 6px;
+    padding-top: 0px;
+  }
+  #spotlight .container .bottom a button {
+    font-size: 8px;
+  }
+  #arrival .wrapper .container .sub_container {
+    margin-left: 18px;
+  }
+  #arrival .wrapper .container .sub_container .box p {
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend h2 {
+    font-size: 12px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend p {
+    font-size: 6px;
+    margin-bottom: 20px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend button a {
+    font-size: 7px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend button {
+    padding: 3px 8px;
+    padding-top: 0px;
+  }
+  #categories .wrapper .men_container .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #categories .wrapper .men_container .grid .box p {
+    font-size: 18px;
+  }
+  #categories .wrapper .men_container .grid .box .flexx a {
+    font-size: 12px;
+  }
+  #categories .wrapper .men_container .grid .box .flexx a {
+    margin-right: 157px;
+  }
+  #categories .wrapper .women_container .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  #categories .wrapper .women_container .flex .box p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  #categories .wrapper .women_container .flex .box .flexx a {
+    margin-right: 0px;
+    font-size: 10px;
+  }
+  #categories .wrapper .women_container .flex .box .img {
+    margin-top: 15px;
+  }
+  #brand .wrapper .container .img_box .img {
+    width: 64px;
+  }
+  #brand .wrapper .container h2 {
+    font-size: 23px;
+  }
+  #brand .wrapper .container p {
+    font-size: 9px;
+    margin-top: 0px;
+  }
+  #limelight .wrapper .container .flex_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  #limelight .wrapper .container .flex_box .box .flexx h2 {
+    font-size: 12px;
+  }
+  #limelight .wrapper .container .flex_box .box .flexx p {
+    font-size: 9px;
+  }
+  #limelight .wrapper .container .flex_box .box a {
+    font-size: 10px;
+  }
+  #limelight .wrapper .container .flex_box .box .flexx {
+    margin-top: 5px;
+  }
+  #feedback .wrapper .container .sub_container .box .flex .img1 {
+    margin-right: 138px;
+  }
+  #footer .wrapper .container .center {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pop {
+    left: 29%;
+    width: 341px;
+  }
+  #spotlight .background_img {
+    height: 51vh;
+  }
+  #spotlight .slide_line {
+    left: 38%;
+  }
+  #categories .wrapper .men_container {
+    margin-top: 50px;
+  }
+  #feedback .wrapper .container .sub_container .box .flex .img1 {
+    margin-right: 105px;
+  }
+  #footer .wrapper .container .top .box h3 {
+    font-size: 16px;
+  }
+  #footer .wrapper .container .center .right h3 {
+    margin-bottom: 13px;
+  }
+  #footer .wrapper .container .center {
+    margin-top: 20px;
+  }
+  #footer .wrapper .container .bottom {
+    padding-bottom: 17px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pop {
+    left: 0;
+    width: 360px;
+  }
+  #brand .wrapper .container .img_box .img {
+    width: 50px;
+  }
+  #brand .wrapper .container .img_box {
+    gap: 8px;
+  }
+  #brand .wrapper .container .img_box {
+    margin-top: 26px;
+    margin-bottom: 0px;
+  }
+  #explore .wrapper .container .box1 .right .image {
+    height: 195px;
+  }
+  #explore .wrapper .container .box2 .right .image {
+    height: 195px;
+  }
+  #explore .wrapper .container .box1 .left h3 {
+    margin-bottom: 22px;
+  }
+  #explore .wrapper .container .box2 .left {
+    top: 9%;
+  }
+  #explore .wrapper .container .box2 .left h3 {
+    margin-bottom: 22px;
+  }
+  #arrival .wrapper .container .sub_container .box .img {
+    width: 69%;
+  }
+  #arrival .wrapper .container .btn1 {
+    top: 68%;
+  }
+  #arrival .wrapper .container button {
+    width: 10px;
+  }
+  #arrival .wrapper .container .btn2 {
+    top: 68%;
+  }
+  #arrival .wrapper .second_container .left .inner_contend h2 {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend p {
+    font-size: 5px;
+    margin-bottom: 12px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend button {
+    padding: 2px 6px;
+    padding-top: 0px;
+  }
+  #arrival .wrapper .second_container .left .inner_contend button a {
+    font-size: 6px;
+  }
+  #categories .wrapper .women_container .flex .box {
+    padding-right: 0px;
+  }
+  #categories .wrapper .women_container {
+    margin-top: 25px;
+  }
+  #categories .wrapper .women_container .flex .box p {
+    font-size: 18px;
+  }
+
+  #feedback .wrapper .container .sub_container .box .flex .img1 {
+    margin-right: 68px;
+  }
+  #feedback .wrapper .container .sub_container .box .flex .img2 {
+    width: 10px;
+  }
+  #feedback .wrapper .container .sub_container .box p {
+    font-size: 7px;
+  }
+  #feedback .wrapper .container .sub_container .box .flex {
+    margin: 15px;
+  }
+  #feedback .wrapper .container .sub_container .box h3 {
+    margin: 15px;
+  }
+  #feedback .wrapper .container .sub_container .box p {
+    margin: 15px;
+  }
+
+  #footer .wrapper .container .top .box a {
+    font-size: 8px;
+  }
+  #footer .wrapper .container .top .box h3 {
+    font-size: 14px;
+  }
+
+  #cart .wrapper .container .left .set2 {
+    padding-left: 0px;
+  }
+  #cart .wrapper .container .left .set1 {
+    margin-right: 0px;
+  }
+  #product {
+    margin-top: 55px;
+  }
+  #product .wrapper .container .main_container .left .description .clr {
+    padding-right: 0px;
+    font-size: 7px;
+  }
+  #product .wrapper .container .main_container .left .pharagraph {
+    margin-top: 30px;
+  }
+  #product .wrapper .container .main_container .left .pharagraph p {
+    font-size: 8px;
+  }
+}
